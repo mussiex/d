@@ -1,0 +1,68 @@
+.container-1 {
+    flex-basis: auto;
+    display: flex;
+    justify-content: space-between;
+  
+    div {
+      margin: 10px;
+    }
+  }
+  
+  .child1 {
+    flex: 4;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+  
+  .child2 {
+    flex: 2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+  
+  .child4, .child5 {
+    flex: 3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+  
+  .child6 {
+    flex: 1;
+    padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+  
+  .headbill {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    padding-left: 5px;
+    background-color: #050e50;
+    color: white;
+    width: 75%;
+  }
+  
+  .headship {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    padding-left: 5px;
+    background-color: #050e50;
+    color: white;
+    width: 75%;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #050e50;
+  }
+  
+  .cname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -300;
+  }
