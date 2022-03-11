@@ -1,10 +1,10 @@
 const shipTo=[{
-    recipientname:'djfkdfj',
-    companyname:'kkkkd',
-    streetaddress:'djjds',
-    city:'',
-    state:'',
-    zipcode:'',
-    phone:''
+    recipientname:'Recipient Name',
+    companyname:'Company Name',
+    streetaddress:'Street Address',
+    city:'City',
+    state:'State',
+    zipcode:'Zipcode',
+    phone:'Phone'
 }]
 export default shipTo;

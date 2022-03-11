@@ -14,7 +14,7 @@ const Middle=()=>{
             <p>[{bill.recipientname}]</p>
             <p>[{bill.companyname}]</p>
             <p>[{bill.streetaddress}]</p>
-            <p>[{bill.city,billTo.state,billTo.zipcode}]</p>
+            <p>[{bill.city,bill.state,bill.zipcode}]</p>
             <p>[{bill.phone}]</p>
             </div>
             
@@ -25,7 +25,7 @@ const Middle=()=>{
             <p>[{ship.recipientname}]</p>
             <p>[{ship.companyname}]</p>
             <p>[{ship.streetaddress}]</p>
-            <p>[{ship.city,shipTo.state,shipTo.zipcode}]</p>
+            <p>[{ship.city,ship.state,ship.zipcode}]</p>
             <p>[{ship.phone}]</p>
             </div>
             <div className='child6'></div>
