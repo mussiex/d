@@ -24,7 +24,7 @@ function Heading({companyinfo}){
                       <div className='child2'>
                       <h1>Invoice</h1>
                       <p>Date:{companyinfo.date}</p>
-                      <p>Invoice#:{companyinfo.invoicenumber}</p>
+                      <p>Invoice#:{companyinfo.invoice}</p>
                       <p>Due Date:{companyinfo.due}</p>
                   </div>
                  
